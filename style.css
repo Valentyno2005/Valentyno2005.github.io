@@ -1,0 +1,47 @@
+.me{
+    
+    width: 500px;
+    height: 520px;
+}
+    
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+.column{
+
+    float: left;
+    width: 33.33% ;
+    padding:5px;
+    
+    
+
+
+}
+
+.row::after{
+
+        content: "";
+        display: table;
+        clear: both;
+
+
+
+
+}
+
+.spacing{
+    word-spacing: 500px;
+
+
+
+}
+
+.aboutme{
+
+
+    background-color: lightblue;
+}
